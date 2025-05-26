@@ -13,7 +13,20 @@ public class Main {
              numeros[i] = sc.nextInt();
          }
 
+
          
+         for (int num : numeros) {
+             if (num % 2 == 0) {
+                 pares++;
+             } else {
+                 impares++;
+             }
+         }
+
+         System.out.println("Cantidad de números pares: " + pares);
+         System.out.println("Cantidad de números impares: " + impares);
+
+
          
      }
     
