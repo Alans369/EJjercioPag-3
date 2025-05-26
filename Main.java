@@ -12,6 +12,8 @@ public class Main {
              System.out.print("Ingrese el número " + (i + 1) + ": ");
              numeros[i] = sc.nextInt();
          }
+
+         
          
      }
     
